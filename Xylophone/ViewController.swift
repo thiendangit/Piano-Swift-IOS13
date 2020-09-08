@@ -18,7 +18,8 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func C(_ sender: Any) {
+    @IBAction func C(_ sender: UIButton) {
+        print("sender : \(sender)")
         playSound(forResource: "C")
     }
     
